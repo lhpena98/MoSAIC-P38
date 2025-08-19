@@ -441,13 +441,45 @@ task SV_write_control_mytable (
    input  integer  addr,
    input  integer  data
 );
-integer rWrittenData;
-$display("[%m AXI] SV_write_control_mytable()- start: writing 0x%X to address 0x%X", data, addr);
-axi4_lite_master_write_request_control_mytable(addr,data);
-$display("[%m AXI] SV_write_control_mytable()- wrote: 0x%X to address 0x%X", data, addr);
-axi4_lite_master_read_request_control_mytable(addr, rWrittenData);
-$display("[%m AXI] SV_write_control_mytable()- readback: 0x%X", rWrittenData);
-$display("[%m AXI] SV_write_control_mytable()- done");
+   integer rWrittenData;
+   static bit e03_detected = 0;  // Track when E03 is written to 0x30C
+   static bit e07_detected = 0;  // Track when E07 is written to 0x30C
+
+   $display("[%m AXI] SV_write_control_mytable()- start: writing 0x%X to address 0x%X", data, addr);
+   axi4_lite_master_write_request_control_mytable(addr,data);
+   $display("[%m AXI] SV_write_control_mytable()- wrote: 0x%X to address 0x%X", data, addr);
+   axi4_lite_master_read_request_control_mytable(addr, rWrittenData);
+   $display("[%m AXI] SV_write_control_mytable()- readback: 0x%X", rWrittenData);
+
+   // Step 1: Track when E03 or E07 commands are written to 0x30C
+   if (addr == 12'h30c) begin
+      if (data == 32'hE03) begin
+         $display("[%m AXI] SNE E03 command detected at 0x30C");
+         e03_detected = 1;
+         e07_detected = 0;
+      end
+      else if (data == 32'hE07) begin
+         $display("[%m AXI] SNE E07 command detected at 0x30C");
+         e07_detected = 1;
+         e03_detected = 0;
+      end
+   end
+   
+   // Step 2: When we see operation register write after E03/E07, add delay
+   else if (addr == 12'h304 && data == 32'h1) begin
+      if (e03_detected) begin
+         $display("[%m AXI] Operation after E03 detected - applying 1000us delay");
+         #(1000us);
+         e03_detected = 0;  // Reset flag
+      end
+      else if (e07_detected) begin
+         $display("[%m AXI] Operation after E07 detected - applying 50us delay");
+         #(50us);
+         e07_detected = 0;  // Reset flag
+      end
+   end
+
+   $display("[%m AXI] SV_write_control_mytable()- done");
 endtask
 
 ////////////////////////////////////////////

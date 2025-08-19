@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mosaic_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bus_clock_reg_pkg" />
+            <top_module name="engine_clock_reg_pkg" />
+            <top_module name="glbl" />
+            <top_module name="sne_evt_stream_pkg" />
+            <top_module name="sne_pkg" />
+            <top_module name="system_clock_reg_pkg" />
+            <top_module name="tb_mosaic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="3.948636366 ms"></ZoomEndTime>
+      <Cursor1Time time="0.001000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="413"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="group" fp_name="group397">
+      <obj_property name="label">SNE_Tile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_control">
+         <obj_property name="ElementShortName">clk_control</obj_property>
+         <obj_property name="ObjectShortName">clk_control</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_line">
+         <obj_property name="ElementShortName">clk_line</obj_property>
+         <obj_property name="ObjectShortName">clk_line</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_line_rst_high">
+         <obj_property name="ElementShortName">clk_line_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_line_rst_low">
+         <obj_property name="ElementShortName">clk_line_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_control_rst_low">
+         <obj_property name="ElementShortName">clk_control_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_control_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /clk_control_rst_high">
+         <obj_property name="ElementShortName">clk_control_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_control_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_TVALID">
+         <obj_property name="ElementShortName">stream_in_TVALID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_TDATA">
+         <obj_property name="ElementShortName">stream_in_TDATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_TKEEP">
+         <obj_property name="ElementShortName">stream_in_TKEEP[15:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_TLAST">
+         <obj_property name="ElementShortName">stream_in_TLAST[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_TREADY">
+         <obj_property name="ElementShortName">stream_in_TREADY[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_TREADY">
+         <obj_property name="ElementShortName">stream_out_TREADY[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_TVALID">
+         <obj_property name="ElementShortName">stream_out_TVALID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_TDATA">
+         <obj_property name="ElementShortName">stream_out_TDATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_TKEEP">
+         <obj_property name="ElementShortName">stream_out_TKEEP[15:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_TLAST">
+         <obj_property name="ElementShortName">stream_out_TLAST[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /plain_start_of_processing">
+         <obj_property name="ElementShortName">plain_start_of_processing</obj_property>
+         <obj_property name="ObjectShortName">plain_start_of_processing</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_AWADDR">
+         <obj_property name="ElementShortName">control_S_AXI_AWADDR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_AWADDR[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_AWVALID">
+         <obj_property name="ElementShortName">control_S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_AWREADY">
+         <obj_property name="ElementShortName">control_S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_WDATA">
+         <obj_property name="ElementShortName">control_S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_WSTRB">
+         <obj_property name="ElementShortName">control_S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_WVALID">
+         <obj_property name="ElementShortName">control_S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_WREADY">
+         <obj_property name="ElementShortName">control_S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_BREADY">
+         <obj_property name="ElementShortName">control_S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_BRESP">
+         <obj_property name="ElementShortName">control_S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_BVALID">
+         <obj_property name="ElementShortName">control_S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_ARADDR">
+         <obj_property name="ElementShortName">control_S_AXI_ARADDR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_ARADDR[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_ARVALID">
+         <obj_property name="ElementShortName">control_S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_ARREADY">
+         <obj_property name="ElementShortName">control_S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_RREADY">
+         <obj_property name="ElementShortName">control_S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_RDATA">
+         <obj_property name="ElementShortName">control_S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_RRESP">
+         <obj_property name="ElementShortName">control_S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /control_S_AXI_RVALID">
+         <obj_property name="ElementShortName">control_S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">control_S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_local_out_TVALID">
+         <obj_property name="ElementShortName">stream_out_local_out_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_out_local_out_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_local_out_TLAST">
+         <obj_property name="ElementShortName">stream_out_local_out_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_out_local_out_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_local_out_TDATA">
+         <obj_property name="ElementShortName">stream_out_local_out_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_local_out_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_local_out_TKEEP">
+         <obj_property name="ElementShortName">stream_out_local_out_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_local_out_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_out_local_out_TREADY">
+         <obj_property name="ElementShortName">stream_out_local_out_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_out_local_out_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_local_in_TVALID">
+         <obj_property name="ElementShortName">stream_in_local_in_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_in_local_in_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_local_in_TLAST">
+         <obj_property name="ElementShortName">stream_in_local_in_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_in_local_in_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_local_in_TDATA">
+         <obj_property name="ElementShortName">stream_in_local_in_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_local_in_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_local_in_TKEEP">
+         <obj_property name="ElementShortName">stream_in_local_in_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_local_in_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /stream_in_local_in_TREADY">
+         <obj_property name="ElementShortName">stream_in_local_in_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_in_local_in_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /mem_valid_axi">
+         <obj_property name="ElementShortName">mem_valid_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_valid_axi</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /mem_wstrb_axi">
+         <obj_property name="ElementShortName">mem_wstrb_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_wstrb_axi</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /mem_addr_axi">
+         <obj_property name="ElementShortName">mem_addr_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_addr_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /mem_wdata_axi">
+         <obj_property name="ElementShortName">mem_wdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /mem_rdata_axi">
+         <obj_property name="ElementShortName">mem_rdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /rvControl">
+         <obj_property name="ElementShortName">rvControl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rvControl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tile_coordinates_line">
+         <obj_property name="ElementShortName">tile_coordinates_line[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tile_coordinates_line[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tile_coordinates_ctrl">
+         <obj_property name="ElementShortName">tile_coordinates_ctrl[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tile_coordinates_ctrl[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /myX_line">
+         <obj_property name="ElementShortName">myX_line[2:0]</obj_property>
+         <obj_property name="ObjectShortName">myX_line[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /myY_line">
+         <obj_property name="ElementShortName">myY_line[2:0]</obj_property>
+         <obj_property name="ObjectShortName">myY_line[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /myX_ctrl">
+         <obj_property name="ElementShortName">myX_ctrl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">myX_ctrl[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /myY_ctrl">
+         <obj_property name="ElementShortName">myY_ctrl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">myY_ctrl[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_req">
+         <obj_property name="ElementShortName">tcdm_req[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_gnt">
+         <obj_property name="ElementShortName">tcdm_gnt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_add">
+         <obj_property name="ElementShortName">tcdm_add[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_wen">
+         <obj_property name="ElementShortName">tcdm_wen[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_be">
+         <obj_property name="ElementShortName">tcdm_be[1:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be[1:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_wdata">
+         <obj_property name="ElementShortName">tcdm_wdata[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wdata[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_rdata">
+         <obj_property name="ElementShortName">tcdm_rdata[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_rdata[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /tcdm_r_valid">
+         <obj_property name="ElementShortName">tcdm_r_valid[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /config_addr">
+         <obj_property name="ElementShortName">config_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">config_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /config_wdata">
+         <obj_property name="ElementShortName">config_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">config_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /config_we">
+         <obj_property name="ElementShortName">config_we</obj_property>
+         <obj_property name="ObjectShortName">config_we</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /BW">
+         <obj_property name="ElementShortName">BW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BW[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /BWB">
+         <obj_property name="ElementShortName">BWB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWB[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /BW_AXI">
+         <obj_property name="ElementShortName">BW_AXI[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BW_AXI[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /BWB_AXI">
+         <obj_property name="ElementShortName">BWB_AXI[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWB_AXI[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /AXI_ADDR">
+         <obj_property name="ElementShortName">AXI_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /OFFSET_SZ">
+         <obj_property name="ElementShortName">OFFSET_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /XY_SZ">
+         <obj_property name="ElementShortName">XY_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XY_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /NOC_BUFFER_ADDR_W">
+         <obj_property name="ElementShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group4442">
+      <obj_property name="label">SNE_COMPLEX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/system_clk_i">
+         <obj_property name="ElementShortName">system_clk_i</obj_property>
+         <obj_property name="ObjectShortName">system_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/system_rst_ni">
+         <obj_property name="ElementShortName">system_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">system_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/sne_interco_clk_i">
+         <obj_property name="ElementShortName">sne_interco_clk_i</obj_property>
+         <obj_property name="ObjectShortName">sne_interco_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/sne_interco_rst_ni">
+         <obj_property name="ElementShortName">sne_interco_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sne_interco_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/sne_engine_clk_i">
+         <obj_property name="ElementShortName">sne_engine_clk_i</obj_property>
+         <obj_property name="ObjectShortName">sne_engine_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/sne_engine_rst_ni">
+         <obj_property name="ElementShortName">sne_engine_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sne_engine_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/interrupt_o">
+         <obj_property name="ElementShortName">interrupt_o</obj_property>
+         <obj_property name="ObjectShortName">interrupt_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/power_gate">
+         <obj_property name="ElementShortName">power_gate</obj_property>
+         <obj_property name="ObjectShortName">power_gate</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/power_sleep">
+         <obj_property name="ElementShortName">power_sleep</obj_property>
+         <obj_property name="ObjectShortName">power_sleep</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/evt_i">
+         <obj_property name="ElementShortName">evt_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">evt_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_req_o">
+         <obj_property name="ElementShortName">tcdm_req_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req_o[1:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_gnt_i">
+         <obj_property name="ElementShortName">tcdm_gnt_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_add_o">
+         <obj_property name="ElementShortName">tcdm_add_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add_o[1:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_wen_o">
+         <obj_property name="ElementShortName">tcdm_wen_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_be_o">
+         <obj_property name="ElementShortName">tcdm_be_o[1:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be_o[1:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_data_o">
+         <obj_property name="ElementShortName">tcdm_data_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_data_o[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_r_data_i">
+         <obj_property name="ElementShortName">tcdm_r_data_i[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_data_i[1:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/tcdm_r_valid_i">
+         <obj_property name="ElementShortName">tcdm_r_valid_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_i[1:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_pwrite">
+         <obj_property name="ElementShortName">apb_slave_pwrite</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_pwrite</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_psel">
+         <obj_property name="ElementShortName">apb_slave_psel</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_psel</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_penable">
+         <obj_property name="ElementShortName">apb_slave_penable</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_penable</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_paddr">
+         <obj_property name="ElementShortName">apb_slave_paddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_paddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_pwdata">
+         <obj_property name="ElementShortName">apb_slave_pwdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_pwdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_prdata">
+         <obj_property name="ElementShortName">apb_slave_prdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_prdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_pready">
+         <obj_property name="ElementShortName">apb_slave_pready</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_pready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/apb_slave_pslverr">
+         <obj_property name="ElementShortName">apb_slave_pslverr</obj_property>
+         <obj_property name="ObjectShortName">apb_slave_pslverr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/cfg_stage0_i">
+         <obj_property name="ElementShortName">cfg_stage0_i[47:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_stage0_i[47:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/cfg_stage1_i">
+         <obj_property name="ElementShortName">cfg_stage1_i[31:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_stage1_i[31:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/config_bus_i">
+         <obj_property name="ElementShortName">config_bus_i</obj_property>
+         <obj_property name="ObjectShortName">config_bus_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/config_engine_i">
+         <obj_property name="ElementShortName">config_engine_i</obj_property>
+         <obj_property name="ObjectShortName">config_engine_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/config_system_sw_o">
+         <obj_property name="ElementShortName">config_system_sw_o</obj_property>
+         <obj_property name="ObjectShortName">config_system_sw_o</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/config_system_hw_i">
+         <obj_property name="ElementShortName">config_system_hw_i</obj_property>
+         <obj_property name="ObjectShortName">config_system_hw_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/sta_main_status_o">
+         <obj_property name="ElementShortName">sta_main_status_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sta_main_status_o[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/fwd_barrier_i">
+         <obj_property name="ElementShortName">fwd_barrier_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fwd_barrier_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/synch_en_i">
+         <obj_property name="ElementShortName">synch_en_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">synch_en_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/online_data">
+         <obj_property name="ElementShortName">online_data[7:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">online_data[7:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/online_engine_id">
+         <obj_property name="ElementShortName">online_engine_id[2:0]</obj_property>
+         <obj_property name="ObjectShortName">online_engine_id[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/online_group_id">
+         <obj_property name="ElementShortName">online_group_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">online_group_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/online_engine_enable_i">
+         <obj_property name="ElementShortName">online_engine_enable_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">online_engine_enable_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/interrupt">
+         <obj_property name="ElementShortName">interrupt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">interrupt[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/BASE_ADDRESS">
+         <obj_property name="ElementShortName">BASE_ADDRESS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BASE_ADDRESS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/CROSSBAR_SRC_PORT">
+         <obj_property name="ElementShortName">CROSSBAR_SRC_PORT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CROSSBAR_SRC_PORT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/CROSSBAR_DST_PORT">
+         <obj_property name="ElementShortName">CROSSBAR_DST_PORT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CROSSBAR_DST_PORT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/CROSSBAR_ARB_PORT">
+         <obj_property name="ElementShortName">CROSSBAR_ARB_PORT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CROSSBAR_ARB_PORT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/CROSSBAR_INT_PORT">
+         <obj_property name="ElementShortName">CROSSBAR_INT_PORT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CROSSBAR_INT_PORT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/CROSSBAR_MID_PORT">
+         <obj_property name="ElementShortName">CROSSBAR_MID_PORT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CROSSBAR_MID_PORT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1597">
+      <obj_property name="label">SPAD_ACC(X1Y0)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_ctrl">
+         <obj_property name="ElementShortName">clk_ctrl</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_line">
+         <obj_property name="ElementShortName">clk_line</obj_property>
+         <obj_property name="ObjectShortName">clk_line</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_ctrl_rst_low">
+         <obj_property name="ElementShortName">clk_ctrl_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_line_rst_low">
+         <obj_property name="ElementShortName">clk_line_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_ctrl_rst_high">
+         <obj_property name="ElementShortName">clk_ctrl_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/clk_line_rst_high">
+         <obj_property name="ElementShortName">clk_line_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/HsrcId">
+         <obj_property name="ElementShortName">HsrcId[5:0]</obj_property>
+         <obj_property name="ObjectShortName">HsrcId[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TVALID">
+         <obj_property name="ElementShortName">stream_in_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TDATA">
+         <obj_property name="ElementShortName">stream_in_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TKEEP">
+         <obj_property name="ElementShortName">stream_in_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TLAST">
+         <obj_property name="ElementShortName">stream_in_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TREADY">
+         <obj_property name="ElementShortName">stream_in_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TREADY">
+         <obj_property name="ElementShortName">stream_out_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TVALID">
+         <obj_property name="ElementShortName">stream_out_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TDATA">
+         <obj_property name="ElementShortName">stream_out_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TKEEP">
+         <obj_property name="ElementShortName">stream_out_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TLAST">
+         <obj_property name="ElementShortName">stream_out_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_valid_axi">
+         <obj_property name="ElementShortName">mem_valid_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_valid_axi</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_addr_axi">
+         <obj_property name="ElementShortName">mem_addr_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_addr_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_wdata_axi">
+         <obj_property name="ElementShortName">mem_wdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_wstrb_axi">
+         <obj_property name="ElementShortName">mem_wstrb_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_wstrb_axi</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_rdata_axi">
+         <obj_property name="ElementShortName">mem_rdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/rvControl">
+         <obj_property name="ElementShortName">rvControl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rvControl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TVALID_int">
+         <obj_property name="ElementShortName">stream_in_TVALID_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TDATA_int">
+         <obj_property name="ElementShortName">stream_in_TDATA_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TKEEP_int">
+         <obj_property name="ElementShortName">stream_in_TKEEP_int[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP_int[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TLAST_int">
+         <obj_property name="ElementShortName">stream_in_TLAST_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_in_TREADY_int">
+         <obj_property name="ElementShortName">stream_in_TREADY_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_rdata">
+         <obj_property name="ElementShortName">mm_mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_wdata">
+         <obj_property name="ElementShortName">mm_mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_addr">
+         <obj_property name="ElementShortName">mm_mem_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_wstrb">
+         <obj_property name="ElementShortName">mm_mem_wstrb</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_wstrb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_valid">
+         <obj_property name="ElementShortName">mm_mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TVALID_int">
+         <obj_property name="ElementShortName">stream_out_TVALID_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TDATA_int">
+         <obj_property name="ElementShortName">stream_out_TDATA_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TKEEP_int">
+         <obj_property name="ElementShortName">stream_out_TKEEP_int[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP_int[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TLAST_int">
+         <obj_property name="ElementShortName">stream_out_TLAST_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/stream_out_TREADY_int">
+         <obj_property name="ElementShortName">stream_out_TREADY_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/rvRstN">
+         <obj_property name="ElementShortName">rvRstN</obj_property>
+         <obj_property name="ObjectShortName">rvRstN</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mm_mem_addr_short">
+         <obj_property name="ElementShortName">mm_mem_addr_short[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_addr_short[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/filler">
+         <obj_property name="ElementShortName">filler[-1:0]</obj_property>
+         <obj_property name="ObjectShortName">filler[-1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/mem_rdata_axi_t">
+         <obj_property name="ElementShortName">mem_rdata_axi_t[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata_axi_t[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/OFFSET_SZ">
+         <obj_property name="ElementShortName">OFFSET_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/XY_SZ">
+         <obj_property name="ElementShortName">XY_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XY_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/BW">
+         <obj_property name="ElementShortName">BW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BW[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/BWB">
+         <obj_property name="ElementShortName">BWB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWB[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[0].col[1].spad.tile_inst /acc_scratchpad/NOC_BUFFER_ADDR_W">
+         <obj_property name="ElementShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group15946">
+      <obj_property name="label">EVT_STREAMER_CTRL[0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/evt_stream_src/evt">
+         <obj_property name="ElementShortName">evt</obj_property>
+         <obj_property name="ObjectShortName">evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/system_clk_i">
+         <obj_property name="ElementShortName">system_clk_i</obj_property>
+         <obj_property name="ObjectShortName">system_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/system_rst_ni">
+         <obj_property name="ElementShortName">system_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">system_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/evt_i">
+         <obj_property name="ElementShortName">evt_i</obj_property>
+         <obj_property name="ObjectShortName">evt_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/power_gate">
+         <obj_property name="ElementShortName">power_gate</obj_property>
+         <obj_property name="ObjectShortName">power_gate</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/power_sleep">
+         <obj_property name="ElementShortName">power_sleep</obj_property>
+         <obj_property name="ObjectShortName">power_sleep</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_req_o">
+         <obj_property name="ElementShortName">tcdm_req_o</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_gnt_i">
+         <obj_property name="ElementShortName">tcdm_gnt_i</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_add_o">
+         <obj_property name="ElementShortName">tcdm_add_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_wen_o">
+         <obj_property name="ElementShortName">tcdm_wen_o</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_be_o">
+         <obj_property name="ElementShortName">tcdm_be_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_data_o">
+         <obj_property name="ElementShortName">tcdm_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/interrupt_o">
+         <obj_property name="ElementShortName">interrupt_o</obj_property>
+         <obj_property name="ObjectShortName">interrupt_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_r_data_i">
+         <obj_property name="ElementShortName">tcdm_r_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_r_valid_i">
+         <obj_property name="ElementShortName">tcdm_r_valid_i</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/sta_main_status_o">
+         <obj_property name="ElementShortName">sta_main_status_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sta_main_status_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/config_i">
+         <obj_property name="ElementShortName">config_i</obj_property>
+         <obj_property name="ObjectShortName">config_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_main_ctrl_i">
+         <obj_property name="ElementShortName">cfg_main_ctrl_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_main_ctrl_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/sta_trans_ptr_o">
+         <obj_property name="ElementShortName">sta_trans_ptr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sta_trans_ptr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_out_stream_i">
+         <obj_property name="ElementShortName">cfg_out_stream_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_out_stream_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_start_addr_i">
+         <obj_property name="ElementShortName">cfg_tcdm_start_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_start_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_addr_step_i">
+         <obj_property name="ElementShortName">cfg_tcdm_addr_step_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_addr_step_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_end_addr_i">
+         <obj_property name="ElementShortName">cfg_tcdm_end_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_end_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_tran_size_i">
+         <obj_property name="ElementShortName">cfg_tcdm_tran_size_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_tran_size_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_start_addr_i">
+         <obj_property name="ElementShortName">cfg_sram_start_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_start_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_addr_step_i">
+         <obj_property name="ElementShortName">cfg_sram_addr_step_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_addr_step_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_end_addr_i">
+         <obj_property name="ElementShortName">cfg_sram_end_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_end_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_trigger_s">
+         <obj_property name="ElementShortName">streamer_trigger_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_trigger_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_armed_s">
+         <obj_property name="ElementShortName">streamer_armed_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_armed_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_op_s">
+         <obj_property name="ElementShortName">streamer_op_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_op_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_transfer_end_s">
+         <obj_property name="ElementShortName">streamer_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_tran_end_mode_s">
+         <obj_property name="ElementShortName">streamer_tran_end_mode_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_tran_end_mode_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_ptr_sel_s">
+         <obj_property name="ElementShortName">streamer_ptr_sel_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_ptr_sel_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_load_mem_s">
+         <obj_property name="ElementShortName">streamer_load_mem_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_load_mem_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_address_s">
+         <obj_property name="ElementShortName">tcdm_address_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_address_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tcdm_transaction_counter_s">
+         <obj_property name="ElementShortName">tcdm_transaction_counter_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_transaction_counter_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/address_r_step_en_s">
+         <obj_property name="ElementShortName">address_r_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_r_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/address_w_step_en_s">
+         <obj_property name="ElementShortName">address_w_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_w_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/address_rw_step_en_s">
+         <obj_property name="ElementShortName">address_rw_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_rw_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/pause_data_s">
+         <obj_property name="ElementShortName">pause_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pause_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/end_addr_based_transfer_end_s">
+         <obj_property name="ElementShortName">end_addr_based_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">end_addr_based_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tran_size_based_transfer_end_s">
+         <obj_property name="ElementShortName">tran_size_based_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">tran_size_based_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_raddr_step_en_s">
+         <obj_property name="ElementShortName">streamer_raddr_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_raddr_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_waddr_step_en_s">
+         <obj_property name="ElementShortName">streamer_waddr_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_waddr_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/streamer_tcdm_addr_init_s">
+         <obj_property name="ElementShortName">streamer_tcdm_addr_init_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_tcdm_addr_init_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/pause_valid_s">
+         <obj_property name="ElementShortName">pause_valid_s</obj_property>
+         <obj_property name="ObjectShortName">pause_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/tran_count">
+         <obj_property name="ElementShortName">tran_count[9:0]</obj_property>
+         <obj_property name="ObjectShortName">tran_count[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_fifo_init_i">
+         <obj_property name="ElementShortName">cfg_context_fifo_init_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_fifo_init_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_fifo_flush_i">
+         <obj_property name="ElementShortName">cfg_context_fifo_flush_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_fifo_flush_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_switch_mode_i">
+         <obj_property name="ElementShortName">cfg_context_switch_mode_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_switch_mode_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_switch_count_i">
+         <obj_property name="ElementShortName">cfg_context_switch_count_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_switch_count_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/pop_next_context_address">
+         <obj_property name="ElementShortName">pop_next_context_address</obj_property>
+         <obj_property name="ObjectShortName">pop_next_context_address</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/push_enable">
+         <obj_property name="ElementShortName">push_enable</obj_property>
+         <obj_property name="ObjectShortName">push_enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/pop_enable">
+         <obj_property name="ElementShortName">pop_enable</obj_property>
+         <obj_property name="ObjectShortName">pop_enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/time_evt">
+         <obj_property name="ElementShortName">time_evt</obj_property>
+         <obj_property name="ObjectShortName">time_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/context_state_incr">
+         <obj_property name="ElementShortName">context_state_incr</obj_property>
+         <obj_property name="ObjectShortName">context_state_incr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/end_operation_evt">
+         <obj_property name="ElementShortName">end_operation_evt</obj_property>
+         <obj_property name="ObjectShortName">end_operation_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/end_context_switch">
+         <obj_property name="ElementShortName">end_context_switch</obj_property>
+         <obj_property name="ObjectShortName">end_context_switch</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/push_current_context_address">
+         <obj_property name="ElementShortName">push_current_context_address</obj_property>
+         <obj_property name="ObjectShortName">push_current_context_address</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/context_mode_valid">
+         <obj_property name="ElementShortName">context_mode_valid</obj_property>
+         <obj_property name="ObjectShortName">context_mode_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/current_context_address">
+         <obj_property name="ElementShortName">current_context_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">current_context_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/next_context_address">
+         <obj_property name="ElementShortName">next_context_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_context_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/latch_tcdm_address_d">
+         <obj_property name="ElementShortName">latch_tcdm_address_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latch_tcdm_address_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/latch_tcdm_address_q">
+         <obj_property name="ElementShortName">latch_tcdm_address_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latch_tcdm_address_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/context_state_d">
+         <obj_property name="ElementShortName">context_state_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">context_state_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/context_state_q">
+         <obj_property name="ElementShortName">context_state_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">context_state_q[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/spike_evt">
+         <obj_property name="ElementShortName">spike_evt</obj_property>
+         <obj_property name="ObjectShortName">spike_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/end_fc">
+         <obj_property name="ElementShortName">end_fc</obj_property>
+         <obj_property name="ObjectShortName">end_fc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_mode_i">
+         <obj_property name="ElementShortName">cfg_fc_mode_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_mode_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_fc_d">
+         <obj_property name="ElementShortName">weight_fetch_fc_d</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_fc_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_fc_q">
+         <obj_property name="ElementShortName">weight_fetch_fc_q</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_fc_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/return_fc_addr_d">
+         <obj_property name="ElementShortName">return_fc_addr_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_addr_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/return_fc_addr_q">
+         <obj_property name="ElementShortName">return_fc_addr_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_addr_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/return_fc_cnt_d">
+         <obj_property name="ElementShortName">return_fc_cnt_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_cnt_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/return_fc_cnt_q">
+         <obj_property name="ElementShortName">return_fc_cnt_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_cnt_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_tran_size_i">
+         <obj_property name="ElementShortName">cfg_fc_tran_size_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_tran_size_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_weight_count_i">
+         <obj_property name="ElementShortName">cfg_weight_count_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_weight_count_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_offset_i">
+         <obj_property name="ElementShortName">cfg_fc_offset_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_offset_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_dimension_i">
+         <obj_property name="ElementShortName">cfg_fc_dimension_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_dimension_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/spike_decoded_address">
+         <obj_property name="ElementShortName">spike_decoded_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">spike_decoded_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_x_dimension">
+         <obj_property name="ElementShortName">cfg_x_dimension[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_x_dimension[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_y_dimension">
+         <obj_property name="ElementShortName">cfg_y_dimension[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_y_dimension[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/spike_id_d">
+         <obj_property name="ElementShortName">spike_id_d</obj_property>
+         <obj_property name="ObjectShortName">spike_id_d</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/spike_id_q">
+         <obj_property name="ElementShortName">spike_id_q</obj_property>
+         <obj_property name="ObjectShortName">spike_id_q</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_end">
+         <obj_property name="ElementShortName">weight_fetch_end</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_end</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/update_weight_addr">
+         <obj_property name="ElementShortName">update_weight_addr</obj_property>
+         <obj_property name="ObjectShortName">update_weight_addr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_store_check">
+         <obj_property name="ElementShortName">cfg_store_check</obj_property>
+         <obj_property name="ObjectShortName">cfg_store_check</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_set_interrupt">
+         <obj_property name="ElementShortName">cfg_set_interrupt</obj_property>
+         <obj_property name="ObjectShortName">cfg_set_interrupt</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/cfg_interrupt_compare_value">
+         <obj_property name="ElementShortName">cfg_interrupt_compare_value[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_interrupt_compare_value[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/outstanding_requests">
+         <obj_property name="ElementShortName">outstanding_requests[31:0]</obj_property>
+         <obj_property name="ObjectShortName">outstanding_requests[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/store_end_d">
+         <obj_property name="ElementShortName">store_end_d</obj_property>
+         <obj_property name="ObjectShortName">store_end_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/store_end_q">
+         <obj_property name="ElementShortName">store_end_q</obj_property>
+         <obj_property name="ObjectShortName">store_end_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/PS">
+         <obj_property name="ElementShortName">PS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/NS">
+         <obj_property name="ElementShortName">NS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">NS[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/STREAMER_ID">
+         <obj_property name="ElementShortName">STREAMER_ID[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STREAMER_ID[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[0].i_evt_streamer /i_evt_streamer_ctrl/MAX_OUTSTANDING_REQUESTS">
+         <obj_property name="ElementShortName">MAX_OUTSTANDING_REQUESTS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_OUTSTANDING_REQUESTS[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group4963">
+      <obj_property name="label">EVT_STREAMER_CTRL[1]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/system_clk_i">
+         <obj_property name="ElementShortName">system_clk_i</obj_property>
+         <obj_property name="ObjectShortName">system_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/system_rst_ni">
+         <obj_property name="ElementShortName">system_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">system_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/evt_i">
+         <obj_property name="ElementShortName">evt_i</obj_property>
+         <obj_property name="ObjectShortName">evt_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/power_gate">
+         <obj_property name="ElementShortName">power_gate</obj_property>
+         <obj_property name="ObjectShortName">power_gate</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/power_sleep">
+         <obj_property name="ElementShortName">power_sleep</obj_property>
+         <obj_property name="ObjectShortName">power_sleep</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_req_o">
+         <obj_property name="ElementShortName">tcdm_req_o</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_gnt_i">
+         <obj_property name="ElementShortName">tcdm_gnt_i</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_add_o">
+         <obj_property name="ElementShortName">tcdm_add_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_wen_o">
+         <obj_property name="ElementShortName">tcdm_wen_o</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_be_o">
+         <obj_property name="ElementShortName">tcdm_be_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_data_o">
+         <obj_property name="ElementShortName">tcdm_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/interrupt_o">
+         <obj_property name="ElementShortName">interrupt_o</obj_property>
+         <obj_property name="ObjectShortName">interrupt_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_r_data_i">
+         <obj_property name="ElementShortName">tcdm_r_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_r_valid_i">
+         <obj_property name="ElementShortName">tcdm_r_valid_i</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/sta_main_status_o">
+         <obj_property name="ElementShortName">sta_main_status_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sta_main_status_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/config_i">
+         <obj_property name="ElementShortName">config_i</obj_property>
+         <obj_property name="ObjectShortName">config_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_main_ctrl_i">
+         <obj_property name="ElementShortName">cfg_main_ctrl_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_main_ctrl_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/sta_trans_ptr_o">
+         <obj_property name="ElementShortName">sta_trans_ptr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sta_trans_ptr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_out_stream_i">
+         <obj_property name="ElementShortName">cfg_out_stream_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_out_stream_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_start_addr_i">
+         <obj_property name="ElementShortName">cfg_tcdm_start_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_start_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_addr_step_i">
+         <obj_property name="ElementShortName">cfg_tcdm_addr_step_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_addr_step_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_end_addr_i">
+         <obj_property name="ElementShortName">cfg_tcdm_end_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_end_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_tcdm_tran_size_i">
+         <obj_property name="ElementShortName">cfg_tcdm_tran_size_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_tcdm_tran_size_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_start_addr_i">
+         <obj_property name="ElementShortName">cfg_sram_start_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_start_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_addr_step_i">
+         <obj_property name="ElementShortName">cfg_sram_addr_step_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_addr_step_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_sram_end_addr_i">
+         <obj_property name="ElementShortName">cfg_sram_end_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_sram_end_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_trigger_s">
+         <obj_property name="ElementShortName">streamer_trigger_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_trigger_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_armed_s">
+         <obj_property name="ElementShortName">streamer_armed_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_armed_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_op_s">
+         <obj_property name="ElementShortName">streamer_op_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_op_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_transfer_end_s">
+         <obj_property name="ElementShortName">streamer_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_tran_end_mode_s">
+         <obj_property name="ElementShortName">streamer_tran_end_mode_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_tran_end_mode_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_ptr_sel_s">
+         <obj_property name="ElementShortName">streamer_ptr_sel_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_ptr_sel_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_load_mem_s">
+         <obj_property name="ElementShortName">streamer_load_mem_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_load_mem_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_address_s">
+         <obj_property name="ElementShortName">tcdm_address_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_address_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tcdm_transaction_counter_s">
+         <obj_property name="ElementShortName">tcdm_transaction_counter_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_transaction_counter_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/address_r_step_en_s">
+         <obj_property name="ElementShortName">address_r_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_r_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/address_w_step_en_s">
+         <obj_property name="ElementShortName">address_w_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_w_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/address_rw_step_en_s">
+         <obj_property name="ElementShortName">address_rw_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">address_rw_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/pause_data_s">
+         <obj_property name="ElementShortName">pause_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pause_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/end_addr_based_transfer_end_s">
+         <obj_property name="ElementShortName">end_addr_based_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">end_addr_based_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tran_size_based_transfer_end_s">
+         <obj_property name="ElementShortName">tran_size_based_transfer_end_s</obj_property>
+         <obj_property name="ObjectShortName">tran_size_based_transfer_end_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_raddr_step_en_s">
+         <obj_property name="ElementShortName">streamer_raddr_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_raddr_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_waddr_step_en_s">
+         <obj_property name="ElementShortName">streamer_waddr_step_en_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_waddr_step_en_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/streamer_tcdm_addr_init_s">
+         <obj_property name="ElementShortName">streamer_tcdm_addr_init_s</obj_property>
+         <obj_property name="ObjectShortName">streamer_tcdm_addr_init_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/pause_valid_s">
+         <obj_property name="ElementShortName">pause_valid_s</obj_property>
+         <obj_property name="ObjectShortName">pause_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/tran_count">
+         <obj_property name="ElementShortName">tran_count[9:0]</obj_property>
+         <obj_property name="ObjectShortName">tran_count[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_fifo_init_i">
+         <obj_property name="ElementShortName">cfg_context_fifo_init_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_fifo_init_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_fifo_flush_i">
+         <obj_property name="ElementShortName">cfg_context_fifo_flush_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_fifo_flush_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_switch_mode_i">
+         <obj_property name="ElementShortName">cfg_context_switch_mode_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_switch_mode_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_context_switch_count_i">
+         <obj_property name="ElementShortName">cfg_context_switch_count_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_context_switch_count_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/pop_next_context_address">
+         <obj_property name="ElementShortName">pop_next_context_address</obj_property>
+         <obj_property name="ObjectShortName">pop_next_context_address</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/push_enable">
+         <obj_property name="ElementShortName">push_enable</obj_property>
+         <obj_property name="ObjectShortName">push_enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/pop_enable">
+         <obj_property name="ElementShortName">pop_enable</obj_property>
+         <obj_property name="ObjectShortName">pop_enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/time_evt">
+         <obj_property name="ElementShortName">time_evt</obj_property>
+         <obj_property name="ObjectShortName">time_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/context_state_incr">
+         <obj_property name="ElementShortName">context_state_incr</obj_property>
+         <obj_property name="ObjectShortName">context_state_incr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/end_operation_evt">
+         <obj_property name="ElementShortName">end_operation_evt</obj_property>
+         <obj_property name="ObjectShortName">end_operation_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/end_context_switch">
+         <obj_property name="ElementShortName">end_context_switch</obj_property>
+         <obj_property name="ObjectShortName">end_context_switch</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/push_current_context_address">
+         <obj_property name="ElementShortName">push_current_context_address</obj_property>
+         <obj_property name="ObjectShortName">push_current_context_address</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/context_mode_valid">
+         <obj_property name="ElementShortName">context_mode_valid</obj_property>
+         <obj_property name="ObjectShortName">context_mode_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/current_context_address">
+         <obj_property name="ElementShortName">current_context_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">current_context_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/next_context_address">
+         <obj_property name="ElementShortName">next_context_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_context_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/latch_tcdm_address_d">
+         <obj_property name="ElementShortName">latch_tcdm_address_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latch_tcdm_address_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/latch_tcdm_address_q">
+         <obj_property name="ElementShortName">latch_tcdm_address_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latch_tcdm_address_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/context_state_d">
+         <obj_property name="ElementShortName">context_state_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">context_state_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/context_state_q">
+         <obj_property name="ElementShortName">context_state_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">context_state_q[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/spike_evt">
+         <obj_property name="ElementShortName">spike_evt</obj_property>
+         <obj_property name="ObjectShortName">spike_evt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/end_fc">
+         <obj_property name="ElementShortName">end_fc</obj_property>
+         <obj_property name="ObjectShortName">end_fc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_mode_i">
+         <obj_property name="ElementShortName">cfg_fc_mode_i</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_mode_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_fc_d">
+         <obj_property name="ElementShortName">weight_fetch_fc_d</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_fc_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_fc_q">
+         <obj_property name="ElementShortName">weight_fetch_fc_q</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_fc_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/return_fc_addr_d">
+         <obj_property name="ElementShortName">return_fc_addr_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_addr_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/return_fc_addr_q">
+         <obj_property name="ElementShortName">return_fc_addr_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_addr_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/return_fc_cnt_d">
+         <obj_property name="ElementShortName">return_fc_cnt_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_cnt_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/return_fc_cnt_q">
+         <obj_property name="ElementShortName">return_fc_cnt_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">return_fc_cnt_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_tran_size_i">
+         <obj_property name="ElementShortName">cfg_fc_tran_size_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_tran_size_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_weight_count_i">
+         <obj_property name="ElementShortName">cfg_weight_count_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_weight_count_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_offset_i">
+         <obj_property name="ElementShortName">cfg_fc_offset_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_offset_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_fc_dimension_i">
+         <obj_property name="ElementShortName">cfg_fc_dimension_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_fc_dimension_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/spike_decoded_address">
+         <obj_property name="ElementShortName">spike_decoded_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">spike_decoded_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_x_dimension">
+         <obj_property name="ElementShortName">cfg_x_dimension[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_x_dimension[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_y_dimension">
+         <obj_property name="ElementShortName">cfg_y_dimension[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_y_dimension[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/spike_id_d">
+         <obj_property name="ElementShortName">spike_id_d</obj_property>
+         <obj_property name="ObjectShortName">spike_id_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/spike_id_q">
+         <obj_property name="ElementShortName">spike_id_q</obj_property>
+         <obj_property name="ObjectShortName">spike_id_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/weight_fetch_end">
+         <obj_property name="ElementShortName">weight_fetch_end</obj_property>
+         <obj_property name="ObjectShortName">weight_fetch_end</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/update_weight_addr">
+         <obj_property name="ElementShortName">update_weight_addr</obj_property>
+         <obj_property name="ObjectShortName">update_weight_addr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_store_check">
+         <obj_property name="ElementShortName">cfg_store_check</obj_property>
+         <obj_property name="ObjectShortName">cfg_store_check</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_set_interrupt">
+         <obj_property name="ElementShortName">cfg_set_interrupt</obj_property>
+         <obj_property name="ObjectShortName">cfg_set_interrupt</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/cfg_interrupt_compare_value">
+         <obj_property name="ElementShortName">cfg_interrupt_compare_value[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_interrupt_compare_value[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/outstanding_requests">
+         <obj_property name="ElementShortName">outstanding_requests[31:0]</obj_property>
+         <obj_property name="ObjectShortName">outstanding_requests[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/context_switching_active">
+         <obj_property name="ElementShortName">context_switching_active</obj_property>
+         <obj_property name="ObjectShortName">context_switching_active</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/store_end_d">
+         <obj_property name="ElementShortName">store_end_d</obj_property>
+         <obj_property name="ObjectShortName">store_end_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/store_end_q">
+         <obj_property name="ElementShortName">store_end_q</obj_property>
+         <obj_property name="ObjectShortName">store_end_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/PS">
+         <obj_property name="ElementShortName">PS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[3:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/NS">
+         <obj_property name="ElementShortName">NS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">NS[3:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group11011">
+         <obj_property name="label">EVT_STREAM_DST[1]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_dst/clk_i">
+            <obj_property name="ElementShortName">clk_i</obj_property>
+            <obj_property name="ObjectShortName">clk_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_dst/ready">
+            <obj_property name="ElementShortName">ready</obj_property>
+            <obj_property name="ObjectShortName">ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_dst/valid">
+            <obj_property name="ElementShortName">valid</obj_property>
+            <obj_property name="ObjectShortName">valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_dst/evt">
+            <obj_property name="ElementShortName">evt</obj_property>
+            <obj_property name="ObjectShortName">evt</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group11006">
+         <obj_property name="label">EVT_STREAM_SRC[1]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_src/clk_i">
+            <obj_property name="ElementShortName">clk_i</obj_property>
+            <obj_property name="ObjectShortName">clk_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_src/ready">
+            <obj_property name="ElementShortName">ready</obj_property>
+            <obj_property name="ObjectShortName">ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_src/valid">
+            <obj_property name="ElementShortName">valid</obj_property>
+            <obj_property name="ObjectShortName">valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /evt_stream_src/evt">
+            <obj_property name="ElementShortName">evt</obj_property>
+            <obj_property name="ObjectShortName">evt</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/STREAMER_ID">
+         <obj_property name="ElementShortName">STREAMER_ID[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STREAMER_ID[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/i_sne_complex/\streamer[1].i_evt_streamer /i_evt_streamer_ctrl/MAX_OUTSTANDING_REQUESTS">
+         <obj_property name="ElementShortName">MAX_OUTSTANDING_REQUESTS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_OUTSTANDING_REQUESTS[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group6689">
+      <obj_property name="label">SNE_ACC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_ctrl">
+         <obj_property name="ElementShortName">clk_ctrl</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_line">
+         <obj_property name="ElementShortName">clk_line</obj_property>
+         <obj_property name="ObjectShortName">clk_line</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_ctrl_rst_low">
+         <obj_property name="ElementShortName">clk_ctrl_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_line_rst_low">
+         <obj_property name="ElementShortName">clk_line_rst_low</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_low</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_ctrl_rst_high">
+         <obj_property name="ElementShortName">clk_ctrl_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_ctrl_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/clk_line_rst_high">
+         <obj_property name="ElementShortName">clk_line_rst_high</obj_property>
+         <obj_property name="ObjectShortName">clk_line_rst_high</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/HsrcId">
+         <obj_property name="ElementShortName">HsrcId[5:0]</obj_property>
+         <obj_property name="ObjectShortName">HsrcId[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TVALID">
+         <obj_property name="ElementShortName">stream_in_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TDATA">
+         <obj_property name="ElementShortName">stream_in_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TKEEP">
+         <obj_property name="ElementShortName">stream_in_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TLAST">
+         <obj_property name="ElementShortName">stream_in_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TREADY">
+         <obj_property name="ElementShortName">stream_in_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TREADY">
+         <obj_property name="ElementShortName">stream_out_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TVALID">
+         <obj_property name="ElementShortName">stream_out_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TDATA">
+         <obj_property name="ElementShortName">stream_out_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TKEEP">
+         <obj_property name="ElementShortName">stream_out_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TLAST">
+         <obj_property name="ElementShortName">stream_out_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mem_valid_axi">
+         <obj_property name="ElementShortName">mem_valid_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_valid_axi</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mem_addr_axi">
+         <obj_property name="ElementShortName">mem_addr_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_addr_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mem_wdata_axi">
+         <obj_property name="ElementShortName">mem_wdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mem_wstrb_axi">
+         <obj_property name="ElementShortName">mem_wstrb_axi</obj_property>
+         <obj_property name="ObjectShortName">mem_wstrb_axi</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mem_rdata_axi">
+         <obj_property name="ElementShortName">mem_rdata_axi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rdata_axi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/rvControl">
+         <obj_property name="ElementShortName">rvControl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rvControl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/config_addr_i">
+         <obj_property name="ElementShortName">config_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">config_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/config_wdata_i">
+         <obj_property name="ElementShortName">config_wdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">config_wdata_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/config_we_i">
+         <obj_property name="ElementShortName">config_we_i</obj_property>
+         <obj_property name="ObjectShortName">config_we_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_req_o">
+         <obj_property name="ElementShortName">tcdm_req_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_gnt_i">
+         <obj_property name="ElementShortName">tcdm_gnt_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_add_o">
+         <obj_property name="ElementShortName">tcdm_add_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add_o[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_wen_o">
+         <obj_property name="ElementShortName">tcdm_wen_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_be_o">
+         <obj_property name="ElementShortName">tcdm_be_o[1:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be_o[1:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_data_o">
+         <obj_property name="ElementShortName">tcdm_data_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_data_o[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_r_data_i">
+         <obj_property name="ElementShortName">tcdm_r_data_i[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_data_i[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_r_valid_i">
+         <obj_property name="ElementShortName">tcdm_r_valid_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TVALID_int">
+         <obj_property name="ElementShortName">stream_in_TVALID_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TDATA_int">
+         <obj_property name="ElementShortName">stream_in_TDATA_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TKEEP_int">
+         <obj_property name="ElementShortName">stream_in_TKEEP_int[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP_int[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TLAST_int">
+         <obj_property name="ElementShortName">stream_in_TLAST_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_in_TREADY_int">
+         <obj_property name="ElementShortName">stream_in_TREADY_int</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mm_mem_rdata">
+         <obj_property name="ElementShortName">mm_mem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mm_mem_wdata">
+         <obj_property name="ElementShortName">mm_mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mm_mem_addr">
+         <obj_property name="ElementShortName">mm_mem_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mm_mem_wstrb">
+         <obj_property name="ElementShortName">mm_mem_wstrb</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_wstrb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/mm_mem_valid">
+         <obj_property name="ElementShortName">mm_mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mm_mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TVALID_int">
+         <obj_property name="ElementShortName">stream_out_TVALID_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TDATA_int">
+         <obj_property name="ElementShortName">stream_out_TDATA_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TKEEP_int">
+         <obj_property name="ElementShortName">stream_out_TKEEP_int[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP_int[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TLAST_int">
+         <obj_property name="ElementShortName">stream_out_TLAST_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/stream_out_TREADY_int">
+         <obj_property name="ElementShortName">stream_out_TREADY_int</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/fifo_queue_en">
+         <obj_property name="ElementShortName">fifo_queue_en</obj_property>
+         <obj_property name="ObjectShortName">fifo_queue_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/fifo_queue_addr">
+         <obj_property name="ElementShortName">fifo_queue_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_queue_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_system_clk">
+         <obj_property name="ElementShortName">sne_system_clk</obj_property>
+         <obj_property name="ObjectShortName">sne_system_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_system_rst_n">
+         <obj_property name="ElementShortName">sne_system_rst_n</obj_property>
+         <obj_property name="ObjectShortName">sne_system_rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_interco_clk">
+         <obj_property name="ElementShortName">sne_interco_clk</obj_property>
+         <obj_property name="ObjectShortName">sne_interco_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_interco_rst_n">
+         <obj_property name="ElementShortName">sne_interco_rst_n</obj_property>
+         <obj_property name="ObjectShortName">sne_interco_rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_engine_clk">
+         <obj_property name="ElementShortName">sne_engine_clk</obj_property>
+         <obj_property name="ObjectShortName">sne_engine_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_engine_rst_n">
+         <obj_property name="ElementShortName">sne_engine_rst_n</obj_property>
+         <obj_property name="ObjectShortName">sne_engine_rst_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_req">
+         <obj_property name="ElementShortName">tcdm_req[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_gnt">
+         <obj_property name="ElementShortName">tcdm_gnt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_add">
+         <obj_property name="ElementShortName">tcdm_add[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add[1:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_wen">
+         <obj_property name="ElementShortName">tcdm_wen[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_be">
+         <obj_property name="ElementShortName">tcdm_be[1:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be[1:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_wdata">
+         <obj_property name="ElementShortName">tcdm_wdata[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wdata[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_rdata">
+         <obj_property name="ElementShortName">tcdm_rdata[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_rdata[1:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_r_valid">
+         <obj_property name="ElementShortName">tcdm_r_valid[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_main_ctrl_reg">
+         <obj_property name="ElementShortName">sne_main_ctrl_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sne_main_ctrl_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_status_reg">
+         <obj_property name="ElementShortName">sne_status_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sne_status_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_processing_active">
+         <obj_property name="ElementShortName">sne_processing_active</obj_property>
+         <obj_property name="ObjectShortName">sne_processing_active</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/output_write_count">
+         <obj_property name="ElementShortName">output_write_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">output_write_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/config_write_count">
+         <obj_property name="ElementShortName">config_write_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">config_write_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_started">
+         <obj_property name="ElementShortName">sne_started</obj_property>
+         <obj_property name="ObjectShortName">sne_started</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/pending_read">
+         <obj_property name="ElementShortName">pending_read</obj_property>
+         <obj_property name="ObjectShortName">pending_read</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/captured_read_data">
+         <obj_property name="ElementShortName">captured_read_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">captured_read_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/read_data_valid">
+         <obj_property name="ElementShortName">read_data_valid</obj_property>
+         <obj_property name="ObjectShortName">read_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/apb_state">
+         <obj_property name="ElementShortName">apb_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/apb_next_state">
+         <obj_property name="ElementShortName">apb_next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_psel">
+         <obj_property name="ElementShortName">sne_apb_psel</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_psel</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_penable">
+         <obj_property name="ElementShortName">sne_apb_penable</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_penable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_pwrite">
+         <obj_property name="ElementShortName">sne_apb_pwrite</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_pwrite</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_paddr">
+         <obj_property name="ElementShortName">sne_apb_paddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_paddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_pwdata">
+         <obj_property name="ElementShortName">sne_apb_pwdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_pwdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_prdata">
+         <obj_property name="ElementShortName">sne_apb_prdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_prdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_pready">
+         <obj_property name="ElementShortName">sne_apb_pready</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_pready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/sne_apb_pslverr">
+         <obj_property name="ElementShortName">sne_apb_pslverr</obj_property>
+         <obj_property name="ObjectShortName">sne_apb_pslverr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/latched_addr">
+         <obj_property name="ElementShortName">latched_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/latched_wdata">
+         <obj_property name="ElementShortName">latched_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/latched_is_write">
+         <obj_property name="ElementShortName">latched_is_write</obj_property>
+         <obj_property name="ObjectShortName">latched_is_write</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/transaction_pending">
+         <obj_property name="ElementShortName">transaction_pending</obj_property>
+         <obj_property name="ObjectShortName">transaction_pending</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/last_tcdm_addr">
+         <obj_property name="ElementShortName">last_tcdm_addr[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">last_tcdm_addr[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_rdata_proc">
+         <obj_property name="ElementShortName">tcdm_rdata_proc[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_rdata_proc[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/tcdm_r_valid_proc">
+         <obj_property name="ElementShortName">tcdm_r_valid_proc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_proc[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/OFFSET_SZ">
+         <obj_property name="ElementShortName">OFFSET_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/XY_SZ">
+         <obj_property name="ElementShortName">XY_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XY_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/BW">
+         <obj_property name="ElementShortName">BW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BW[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/BWB">
+         <obj_property name="ElementShortName">BWB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWB[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/NOC_BUFFER_ADDR_W">
+         <obj_property name="ElementShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NOC_BUFFER_ADDR_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /acc_sne_inst/STREAMERS">
+         <obj_property name="ElementShortName">STREAMERS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STREAMERS[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group12350">
+      <obj_property name="label">TCDM_NOC_BRIDGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rst_ni">
+         <obj_property name="ElementShortName">rst_ni</obj_property>
+         <obj_property name="ObjectShortName">rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/HsrcId">
+         <obj_property name="ElementShortName">HsrcId[5:0]</obj_property>
+         <obj_property name="ObjectShortName">HsrcId[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_req_i">
+         <obj_property name="ElementShortName">tcdm_req_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_req_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_gnt_o">
+         <obj_property name="ElementShortName">tcdm_gnt_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_gnt_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_add_i">
+         <obj_property name="ElementShortName">tcdm_add_i[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_add_i[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_wen_i">
+         <obj_property name="ElementShortName">tcdm_wen_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_wen_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_be_i">
+         <obj_property name="ElementShortName">tcdm_be_i[1:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_be_i[1:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_data_i">
+         <obj_property name="ElementShortName">tcdm_data_i[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_data_i[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_r_data_o">
+         <obj_property name="ElementShortName">tcdm_r_data_o[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_data_o[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tcdm_r_valid_o">
+         <obj_property name="ElementShortName">tcdm_r_valid_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tcdm_r_valid_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_out_TVALID">
+         <obj_property name="ElementShortName">stream_out_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_out_TDATA">
+         <obj_property name="ElementShortName">stream_out_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_out_TKEEP">
+         <obj_property name="ElementShortName">stream_out_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_out_TLAST">
+         <obj_property name="ElementShortName">stream_out_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_out_TREADY">
+         <obj_property name="ElementShortName">stream_out_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_out_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_in_TVALID">
+         <obj_property name="ElementShortName">stream_in_TVALID</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_in_TDATA">
+         <obj_property name="ElementShortName">stream_in_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_in_TKEEP">
+         <obj_property name="ElementShortName">stream_in_TKEEP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TKEEP[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_in_TLAST">
+         <obj_property name="ElementShortName">stream_in_TLAST</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/stream_in_TREADY">
+         <obj_property name="ElementShortName">stream_in_TREADY</obj_property>
+         <obj_property name="ObjectShortName">stream_in_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/active_transactions">
+         <obj_property name="ElementShortName">active_transactions[0:7]</obj_property>
+         <obj_property name="ObjectShortName">active_transactions[0:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_records_q">
+         <obj_property name="ElementShortName">tx_records_q[0:7]</obj_property>
+         <obj_property name="ObjectShortName">tx_records_q[0:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_write_ptr_q">
+         <obj_property name="ElementShortName">tx_write_ptr_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_write_ptr_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_write_ptr_d">
+         <obj_property name="ElementShortName">tx_write_ptr_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_write_ptr_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_read_ptr_q">
+         <obj_property name="ElementShortName">tx_read_ptr_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_read_ptr_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_read_ptr_d">
+         <obj_property name="ElementShortName">tx_read_ptr_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_read_ptr_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/last_tcdm_addr">
+         <obj_property name="ElementShortName">last_tcdm_addr[1:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">last_tcdm_addr[1:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_state_q">
+         <obj_property name="ElementShortName">tx_state_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_state_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_state_d">
+         <obj_property name="ElementShortName">tx_state_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_state_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_state_q">
+         <obj_property name="ElementShortName">rx_state_q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_state_q[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_state_d">
+         <obj_property name="ElementShortName">rx_state_d[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_state_d[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/active_streamer_q">
+         <obj_property name="ElementShortName">active_streamer_q[0:0]</obj_property>
+         <obj_property name="ObjectShortName">active_streamer_q[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/active_streamer_d">
+         <obj_property name="ElementShortName">active_streamer_d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">active_streamer_d[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_addr_q">
+         <obj_property name="ElementShortName">tx_addr_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_addr_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_addr_d">
+         <obj_property name="ElementShortName">tx_addr_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_addr_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_write_q">
+         <obj_property name="ElementShortName">tx_write_q</obj_property>
+         <obj_property name="ObjectShortName">tx_write_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_write_d">
+         <obj_property name="ElementShortName">tx_write_d</obj_property>
+         <obj_property name="ObjectShortName">tx_write_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_be_q">
+         <obj_property name="ElementShortName">tx_be_q[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_be_q[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_be_d">
+         <obj_property name="ElementShortName">tx_be_d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_be_d[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_data_q">
+         <obj_property name="ElementShortName">tx_data_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_data_d">
+         <obj_property name="ElementShortName">tx_data_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_id_q">
+         <obj_property name="ElementShortName">tx_id_q[1:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_id_q[1:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_id_d">
+         <obj_property name="ElementShortName">tx_id_d[1:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_id_d[1:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/active_tx_id">
+         <obj_property name="ElementShortName">active_tx_id[1:0]</obj_property>
+         <obj_property name="ObjectShortName">active_tx_id[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_streamer_q">
+         <obj_property name="ElementShortName">rx_streamer_q[0:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_streamer_q[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_streamer_d">
+         <obj_property name="ElementShortName">rx_streamer_d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_streamer_d[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_id_q">
+         <obj_property name="ElementShortName">rx_id_q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_id_q[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_id_d">
+         <obj_property name="ElementShortName">rx_id_d[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_id_d[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_data_q">
+         <obj_property name="ElementShortName">rx_data_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_data_d">
+         <obj_property name="ElementShortName">rx_data_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/timeout_counter_q">
+         <obj_property name="ElementShortName">timeout_counter_q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timeout_counter_q[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/timeout_counter_d">
+         <obj_property name="ElementShortName">timeout_counter_d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timeout_counter_d[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/timeout_occurred">
+         <obj_property name="ElementShortName">timeout_occurred</obj_property>
+         <obj_property name="ObjectShortName">timeout_occurred</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/timeout_req">
+         <obj_property name="ElementShortName">timeout_req[1:0]</obj_property>
+         <obj_property name="ObjectShortName">timeout_req[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/req_valid">
+         <obj_property name="ElementShortName">req_valid[1:0]</obj_property>
+         <obj_property name="ObjectShortName">req_valid[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/req_grant">
+         <obj_property name="ElementShortName">req_grant[1:0]</obj_property>
+         <obj_property name="ObjectShortName">req_grant[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/streamer_ready">
+         <obj_property name="ElementShortName">streamer_ready[1:0]</obj_property>
+         <obj_property name="ObjectShortName">streamer_ready[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/selected_streamer">
+         <obj_property name="ElementShortName">selected_streamer[0:0]</obj_property>
+         <obj_property name="ObjectShortName">selected_streamer[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/grant_valid">
+         <obj_property name="ElementShortName">grant_valid</obj_property>
+         <obj_property name="ObjectShortName">grant_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/response_complete">
+         <obj_property name="ElementShortName">response_complete</obj_property>
+         <obj_property name="ObjectShortName">response_complete</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/outstanding_count_q">
+         <obj_property name="ElementShortName">outstanding_count_q[1:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">outstanding_count_q[1:0][2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/outstanding_count_d">
+         <obj_property name="ElementShortName">outstanding_count_d[1:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">outstanding_count_d[1:0][2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/inc_req">
+         <obj_property name="ElementShortName">inc_req[1:0]</obj_property>
+         <obj_property name="ObjectShortName">inc_req[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/dec_req">
+         <obj_property name="ElementShortName">dec_req[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_req[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/priority_q">
+         <obj_property name="ElementShortName">priority_q[0:0]</obj_property>
+         <obj_property name="ObjectShortName">priority_q[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/priority_d">
+         <obj_property name="ElementShortName">priority_d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">priority_d[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_addr">
+         <obj_property name="ElementShortName">rx_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_addr[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/found_match">
+         <obj_property name="ElementShortName">found_match</obj_property>
+         <obj_property name="ObjectShortName">found_match</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/write_complete">
+         <obj_property name="ElementShortName">write_complete[1:0]</obj_property>
+         <obj_property name="ObjectShortName">write_complete[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/read_complete">
+         <obj_property name="ElementShortName">read_complete[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_complete[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/tx_header">
+         <obj_property name="ElementShortName">tx_header[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_header[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/rx_header">
+         <obj_property name="ElementShortName">rx_header[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_header[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/dest_tile_id">
+         <obj_property name="ElementShortName">dest_tile_id[5:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_tile_id[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/BW">
+         <obj_property name="ElementShortName">BW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BW[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/BWB">
+         <obj_property name="ElementShortName">BWB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWB[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/XY_SZ">
+         <obj_property name="ElementShortName">XY_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XY_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/STREAMERS">
+         <obj_property name="ElementShortName">STREAMERS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STREAMERS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/SCRATCHPAD_TILE_X">
+         <obj_property name="ElementShortName">SCRATCHPAD_TILE_X[2:0]</obj_property>
+         <obj_property name="ObjectShortName">SCRATCHPAD_TILE_X[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/SCRATCHPAD_TILE_Y">
+         <obj_property name="ElementShortName">SCRATCHPAD_TILE_Y[2:0]</obj_property>
+         <obj_property name="ObjectShortName">SCRATCHPAD_TILE_Y[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/MAX_OUTSTANDING">
+         <obj_property name="ElementShortName">MAX_OUTSTANDING[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_OUTSTANDING[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/TIMEOUT_CYCLES">
+         <obj_property name="ElementShortName">TIMEOUT_CYCLES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TIMEOUT_CYCLES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/MPUT">
+         <obj_property name="ElementShortName">MPUT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MPUT[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/MGET">
+         <obj_property name="ElementShortName">MGET[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MGET[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_mosaic/mosaic/\row[1].col[1].sne.tile_inst /i_tcdm_noc_bridge/MDATA">
+         <obj_property name="ElementShortName">MDATA[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MDATA[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

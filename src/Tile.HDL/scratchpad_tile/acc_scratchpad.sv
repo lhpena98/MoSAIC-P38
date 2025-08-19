@@ -92,6 +92,22 @@ logic rvRstN;
 
 assign rvRstN = rvControl[0]; //1'b0;
 
+// // Add this debug in the noc_decoder section
+// always @(posedge clk_ctrl) begin
+//    if (stream_in_TVALID_int && stream_in_TREADY_int) begin
+//       $display("[%t] SPAD_TILE: NOC_DECODER INPUT: data=0x%h, last=%b, noc_code=%b, dest=(%d,%d)", 
+//                $time, stream_in_TDATA_int, stream_in_TLAST_int, 
+//                stream_in_TDATA_int[27:25],
+//                stream_in_TDATA_int[XY_SZ-1:0], 
+//                stream_in_TDATA_int[(2*XY_SZ)-1:XY_SZ]);
+//    end
+   
+//    if (stream_out_TVALID_int && stream_out_TREADY_int) begin
+//       $display("[%t] SPAD_TILE: NOC_DECODER OUTPUT: data=0x%h, last=%b", 
+//                $time, stream_out_TDATA_int, stream_out_TLAST_int);
+//    end
+// end
+
 noc_buffer_in#(
    .BW (BW),
    .ADDR_W (NOC_BUFFER_ADDR_W)

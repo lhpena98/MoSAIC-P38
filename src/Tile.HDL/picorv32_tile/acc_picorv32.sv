@@ -29,6 +29,8 @@
 ////////////////////////////////////////////////
 
 `timescale 1 ps/ 1 ps
+`define XCUSTOM_MQ 7'd1
+`define mq_DO_MLOAD 3'd6
 
 module acc_picorv32#(
    parameter OFFSET_SZ         = 12,
@@ -113,6 +115,11 @@ logic [(2*XY_SZ-1):0] mem_addr_xy;
 logic [31:0] mem_rdata_outsi_rv;
 logic mem_ready_outsi_rv;
 
+always @(posedge clk_ctrl) begin
+   if (mem_valid_rv == 1'b1 && mem_wstrb_rv == 4'hf && mem_addr_rv == 32'h00001000) begin
+      $display("[%t] DEBUG OUTPUT: Write to 0x00001000 = 0x%08x", $time, mem_wdata_rv);
+   end
+end
 
 logic        stream_out_TREADY_int;
 logic        stream_out_TVALID_int;
@@ -466,6 +473,12 @@ qISAExtension#(
    .pcpi_wait         (pcpi_wait),
    .pcpi_ready        (pcpi_ready));
 
+// In qISAExtension or PCPI handler
+always @(posedge clk_ctrl) begin
+    if (pcpi_valid && pcpi_insn[6:0] == `XCUSTOM_MQ && pcpi_insn[14:12] == `mq_DO_MLOAD) begin
+        $display("[%t] PICORV32_TILE: mLoad PCPI instruction received: rs1=0x%08x, rs2=0x%08x", $time, pcpi_rs1, pcpi_rs2);
+    end
+end
 endmodule
 
 /*

@@ -51,8 +51,10 @@ our $axi_ux_addr         = 4;
 
 our %tile_type = ( 'pico' => [0, 'Tile_picorv32'],
                    'spad' => [1, 'Tile_scratchpad'], #- Scratchpad
-                   'loop' => [2, 'Tile_loop']
+                   'spad' => [2, 'Tile_scratchpad'], #- Scratchpad
+                   'sne' => [3, 'Tile_sne']
                  );
+
 
 my %u280 = ('part'       => 'xcu280-fsvh2892-2L-e',
             'board_part' => 'xilinx.com:au280:part0:1.1');
@@ -369,22 +371,50 @@ sub gen_vivado_script{
    my $file = "$param{'launch_path'}/launch_vivado.tcl";
    open (my $FH, '>', $file ) or die "Couldn't open file $file !$.\n";
    my %board = %{$board_info{$param{'board'}}};
+   # Explicitly define src_path based on mosaic_path
+   $param{'src_path'} = "$param{'mosaic_path'}/src";
    #- Create the project
    print $FH "set_param board.repoPaths \"$MosaicGlobal/open-nic-shell/board_files\"\n"; #- FIXME
    print $FH "create_project -force mosaic $param{'launch_path'}/mosaic -part $board{'part'}\n";
    #- Set the board
    print $FH "set_property board_part $board{'board_part'} [current_project]\n";
-   #- Add files
-   print $FH "set_property include_dirs \"$param{'build_path'}\" [current_fileset]\n";
-   print $FH "add_files -scan_for_includes $param{'mosaic_path'}/src\n";
-   if ($param{'vivado_ip_dram'}){
-      print $FH "add_files -scan_for_includes $MosaicGlobal/xilinx_dram_model\n"; #- FIXME
-      print $FH "source $param{'mosaic_path'}/tools/vivado_scripts/memory_ctrl_etc_$param{'board'}_${vivado_version}.tcl\n";
-      #print $FH "source $param{'mosaic_path'}/tools/vivado_scripts/fifo_generator_v2.tcl\n"; #FIXME
-   }
-   #- Set the top project
-   print $FH "set_property top tb_mosaic [get_filesets sim_1]\n";
-   print $FH "set_property top_lib xil_defaultlib [get_filesets sim_1]\n";
+   #- Add SNE dependency files created by Bender
+   print $FH "source /home/lpenatrevino/sne/sne_vivado.tcl\n";
+
+   # Force Vivado to treat .sv files as SystemVerilog source, not headers
+   print $FH "set_property file_type {SystemVerilog} \[get_files -filter {NAME =~ *.sv}]\n";
+
+   # Add the SNE source files to the simulation fileset as well
+   print $FH "\n# Add the SNE source files to the simulation fileset as well\n";
+   print $FH "set sim_fileset \[get_filesets sim_1]\n";
+   print $FH "set sne_files \[get_files -of_objects \[get_filesets sources_1] -filter {NAME =~ *\/sne\/*}]\n";
+   print $FH "add_files -fileset \$sim_fileset \$sne_files\n\n";
+
+   # Set the global verilog defines for the SNE macros
+   my $verilog_defines = "{ENGINES=8 SLICES=8 LAYER=1 SLOTS=256 CLOCK=200 KERNEL=256 NGGROUPS=16 NEURONS=64 NEURON_ID_WIDTH=8 AXON_ID_WIDTH=14 TICK_ID_WIDTH=5 LATENCY_WIDTH=10 MAX_LATENCY=1023}";
+   print $FH "set_property verilog_define $verilog_defines \[get_filesets sim_1]\n";
+
+   # Add all necessary include directories
+   my @include_dirs = (
+      $param{'build_path'},
+      $param{'build_path'}, # Included twice by default in original script
+      "/home/lpenatrevino/sne/.bender/git/checkouts/register_interface-6ef16bb2181a0f47/include",
+      "/home/lpenatrevino/sne/.bender/git/checkouts/common_cells-2cc0cf4395a52646/include",
+      "/home/lpenatrevino/sne/.bender/git/checkouts/axi-53d497d3fc7877da/include",
+      "/home/lpenatrevino/sne/.bender/git/checkouts/register_interface-6ef16bb2181a0f47/include",
+      # Add the AXI source directory to the global includes
+      "/home/lpenatrevino/sne/.bender/git/checkouts/axi-53d497d3fc7877da/src",
+      # Add the SNE misc components directory for the evt_stream_macros.svh header
+      "/home/lpenatrevino/sne/rtl/evt_misc_components",
+      # Add the SNE include directory
+      "/home/lpenatrevino/sne/rtl/include"
+   );
+   my $include_path_str = join(' ', @include_dirs);
+   print $FH "set_property include_dirs { $include_path_str } \[get_filesets [list sources_1 sim_1]]\n";
+
+   print $FH "add_files -scan_for_includes $param{'src_path'}\n";
+   print $FH "set_property top tb_mosaic \[get_filesets sim_1]\n";
+   print $FH "set_property top_lib xil_defaultlib \[get_filesets sim_1]\n";
    #- ? 
    print $FH "update_compile_order -fileset sources_1\n";
    print $FH "update_compile_order -fileset sim_1\n";
@@ -886,6 +916,9 @@ sub gen_pico_testcase{
                }else{
                   die "ERROR: $full_path2 file does not exist\n";
                }
+            }else{
+               print $FH "\t\$display(\"Writing tile $i,$j\");\n"; #Add to clean copy
+               print $FH "\tinitialize_mem_tile_AXI(\"$full_path2\",$adr);\n\n"; #FIXME: adr (SAME)
             }
          }
       }
