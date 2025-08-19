@@ -1,5 +1,19 @@
 // This module wraps the SNE core logic, presenting a standard interface
 // to the MoSAIC tile infrastructure (axi_control and tile_noc).
+
+function automatic logic [31:0] correct_apb_addr(logic [31:0] addr);
+    // Check if this is a streamer control register (0x2000-0x2FFF range)
+    if ((addr & 32'hFF000) == 32'h2000) begin
+        // Special handling for cfg_main_ctrl_i registers
+        if ((addr & 32'h00FFC) == 32'h0000) begin  // Streamer 0 main control
+            return 32'h2004;  // Redirect to Streamer 1's address
+        end else if ((addr & 32'h00FFC) == 32'h0004) begin  // Streamer 1 main control
+            return 32'h2000;  // Redirect to Streamer 0's address
+        end
+    end
+    return addr;  // No correction needed
+endfunction
+
 module acc_sne #(
    parameter OFFSET_SZ         = 12,
    parameter XY_SZ             =  3,
@@ -192,8 +206,11 @@ module acc_sne #(
 
          SETUP: begin
             // Assert select and drive address/control
+            // Apply address correction when accessing streamer registers
+            logic [31:0] corrected_addr = correct_apb_addr(latched_addr);
+            
             sne_apb_psel   = 1'b1;
-            sne_apb_paddr  = latched_addr;
+            sne_apb_paddr  = corrected_addr;  // Use corrected address
             sne_apb_pwrite = latched_is_write;
             if (latched_is_write) begin
                sne_apb_pwdata = latched_wdata;
@@ -203,9 +220,12 @@ module acc_sne #(
 
          ACCESS: begin
             // Keep signals asserted and assert enable
+            // Apply address correction when accessing streamer registers
+            logic [31:0] corrected_addr = correct_apb_addr(latched_addr);
+            
             sne_apb_psel   = 1'b1;
             sne_apb_penable= 1'b1;
-            sne_apb_paddr  = latched_addr;
+            sne_apb_paddr  = corrected_addr;  // Use corrected address
             sne_apb_pwrite = latched_is_write;
             if (latched_is_write) begin
                sne_apb_pwdata = latched_wdata;
